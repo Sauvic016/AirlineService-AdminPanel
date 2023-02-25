@@ -1,15 +1,16 @@
 import SearchBar from "../components/SearchBar";
+import PersonRoundedIcon from "@mui/icons-material/PersonRounded";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between py-6 px-5 bg-slate-50">
-      <div>Logo</div>
-      <div className="font-poppins font-semibold text-2xl">Hello, Admin</div>
-
+    <div className="flex justify-between items-center py-6 px-5  border-r-[0.5px] border-gray-200 ">
+      <div className=""></div>
       <div>
         <SearchBar />
       </div>
-      <div>Login-adminPic</div>
+      <div className="bg-slate-100 p-1 rounded-full cursor-pointer">
+        <PersonRoundedIcon className="text-blue-400" />
+      </div>
     </div>
   );
 };
