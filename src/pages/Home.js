@@ -4,7 +4,7 @@ import SideBar from "../Layouts/SideBar";
 
 const Home = () => {
   return (
-    <div className="flex h-screen overflow-hidden cursor-default font-poppins transition ease-in-out duration-200 scroll-smooth">
+    <div className="flex cursor-default font-poppins transition ease-in-out duration-200 scroll-smooth bg-slate-100">
       <SideBar />
       <MainBar />
     </div>

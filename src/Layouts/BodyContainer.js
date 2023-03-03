@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom";
+import React from "react";
 
 const BodyContainer = () => {
   return (
-    <div className="h-full p-2 rounded-md bg-slate-100">
+    <div className=" px-2 pb-0  bg-slate-100">
       <Outlet />
     </div>
   );

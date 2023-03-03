@@ -16,7 +16,7 @@ const Widget = ({ type }) => {
       break;
     case "revenue":
       data = {
-        title: "Total Revenue Generated",
+        title: "Total Earnings",
       };
       break;
     case "email":
@@ -29,7 +29,7 @@ const Widget = ({ type }) => {
   }
 
   return (
-    <div className="shadow-[2px_4px_10px_1px_rgba(201,201,201,0.47)] bg-white w-full p-10 rounded-lg">
+    <div className="shadow-[2px_4px_10px_1px_rgba(201,201,201,0.47)] bg-white w-full p-8 rounded-lg">
       <h2>{data.title}</h2>
       <p className="font-semibold text-2xl">123,345</p>
       <p>

@@ -3,7 +3,7 @@ import PersonRoundedIcon from "@mui/icons-material/PersonRounded";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center py-6 px-5  border-r-[0.5px] border-gray-200 ">
+    <div className="flex justify-between items-center py-6 px-5 border-gray-200 border-b-[1.5px] bg-white ">
       <div className=""></div>
       <div>
         <SearchBar />
